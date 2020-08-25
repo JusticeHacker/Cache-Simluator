@@ -4,7 +4,7 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 ## Compile 
 在linux環境下用 ```gcc main.c -lm -o cache``` 將.c檔編譯成執行檔cache
 
-## About input
+## Input data
 執行格式:
 ```
 ./cache cache_size block_size associativity "replace_policy" "file"
@@ -20,10 +20,10 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 * Label 1(Write Data): 寫入資料到對應的Address。
 * Label 2(Read Instruction): 用對應的Address從cache讀取指令。
 * Address 都是32bit長，圖中未滿32bit視為前面補16進位的0。 // Ex: 408ed4 實際上是00408ed4
-#### Example:<br>
+#### Example:
 ![error](https://github.com/JusticeLeee/Cache-Simluator/blob/master/image.png?raw=true "Example")
 
-## About output
+## Output data
 * Input file (輸入檔名)
 * Demand fetch (需要處理的指令數) // = Cache hit + Cache miss
 * Cache hit (有在快取找到資料的指令數)
