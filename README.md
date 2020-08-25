@@ -1,8 +1,8 @@
 # Cache-Simluator
 Using C Language simulate cache with replacement type "FIFO" and "LRU"
 
-## compile 
-在linux環境下用 gcc main.c -lm -o cache 將.c檔編譯成執行檔cache
+## Compile 
+在linux環境下用 `gcc main.c -lm -o cache` 將.c檔編譯成執行檔cache
 
 ## About input
 * cache_size: 8, 16, …, 256 (KB) 
@@ -11,9 +11,8 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 * replace-policy: FIFO, LRU
 * file: gcc.din, spice.din 
 ### Excute format 
-```
-執行格式: ./cache cache_size block_size associativity "replace_policy" "file" 
-```
+執行格式: `./cache cache_size block_size associativity "replace_policy" "file"`
+
 ## About output
 * Input file (輸入檔名)
 * Demand fetch (需要處理的指令數) // = Cache hit + Cache miss
@@ -25,7 +24,7 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 * Bytes from Memory (總共從記憶體傳輸了多少byte到Cache)
 * Byte to memory (總共從Cache傳輸了多少byte資料到記憶體)
 
-## FlowChar實作
+## FlowChar
 ![error]( https://images2017.cnblogs.com/blog/841412/201712/841412-20171218152527584-372058249.png "FlowChar")
 
 
