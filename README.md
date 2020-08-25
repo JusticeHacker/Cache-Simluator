@@ -14,7 +14,7 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 * associativity: 1 (direct-mapped), 2, 4, 8, f (fully associative) 
 * replace-policy: FIFO, LRU
 * file: gcc.din, spice.din 
-![error](
+![error](https://github.com/JusticeLeee/Cache-Simluator/blob/master/image.png?raw=true "Example")
 ## About output
 * Input file (輸入檔名)
 * Demand fetch (需要處理的指令數) // = Cache hit + Cache miss
