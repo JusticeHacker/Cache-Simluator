@@ -36,5 +36,7 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 
 ## FlowChar
 ![error]( https://images2017.cnblogs.com/blog/841412/201712/841412-20171218152527584-372058249.png "FlowChar")
+## Result
+
 
 
