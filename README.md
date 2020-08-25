@@ -21,7 +21,7 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 * Label 2(Read Instruction): 用對應的Address從cache讀取指令。
 * Address 都是32bit長，圖中未滿32bit視為前面補16進位的0。 // Ex: 408ed4 實際上是00408ed4
 <br>
-E
+Example:
 ![error](https://github.com/JusticeLeee/Cache-Simluator/blob/master/image.png?raw=true "Example")
 
 ## About output
