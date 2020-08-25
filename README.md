@@ -2,7 +2,7 @@
 Using C Language simulate cache with replacement type "FIFO" and "LRU"
 
 ## Compile 
-在linux環境下用 `gcc main.c -lm -o cache` 將.c檔編譯成執行檔cache
+在linux環境下用 ```gcc main.c -lm -o cache``` 將.c檔編譯成執行檔cache
 
 ## About input
 * cache_size: 8, 16, …, 256 (KB) 
@@ -11,7 +11,7 @@ Using C Language simulate cache with replacement type "FIFO" and "LRU"
 * replace-policy: FIFO, LRU
 * file: gcc.din, spice.din 
 ### Excute format 
-執行格式: `./cache cache_size block_size associativity "replace_policy" "file"`
+執行格式: ```./cache cache_size block_size associativity "replace_policy" "file"```
 
 ## About output
 * Input file (輸入檔名)
