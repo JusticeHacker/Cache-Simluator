@@ -1,4 +1,4 @@
-# CO-LAB5-Cache-Simluator
+# Cache-Simluator
 Using C Language simulate cache with replacement type "FIFO" and "LRU"
 
 ## Compile 
